@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function abs(x) {
+        if(x>0){
+            return x;
+        }
+        else {
+            return -x;
+        }
+
+    }
+    var abs1 = abs(-10000);
+    document.writeln(abs1);
+    /*如果没有 return  语句，函数执行完毕后也会返回结果，只是结果
+为 undefined  。
+由于JavaScript的函数也是一个对象，上述定义的 abs()  函数实际上是一个函数*/
+   /* var ppx=function (a) {
+        document.writeln(a);
+
+    };
+    ppx(100);
+    var oweson=function (p) {
+        if(typeof  p !=='number'){
+            alert("nnnnnnnnnnnnnnnnnn")
+
+        }
+        else {
+            document.writeln('yes is a number');
+        }
+
+    }
+    oweson('asasasa');*/
+   /* arguments
+    JavaScript还有一个免费赠送的关键字 arguments  ，它只在函数内部起作用，并
+    且永远指向当前函数的调用者传入的所有参数。 arguments  类似 Array  但它不
+    是一个 Array  ：*/
+function foo(x) {
+    alert(x); // 10
+    for(var i=0;i<arguments.length;i++){
+
+            document.writeln(arguments[i]);
+    }
+
+}
+    foo(10, 20, 30);
+   // 利用 arguments  ，你可以获得调
+    /**要小心了，由于JavaScript引擎在行末自动添加分号的机制，上面的代码实际上变
+     成了：
+     function foo() {
+return; // 自动添加了分号，相当于return undefined;
+{ name: 'foo' }; // 这行语句已经没法执行到了
+}
+     所以正确的多行写法是：
+     function foo() {
+return { // 这里不会自动加分号，因为{表示语句尚未结束
+name: 'foo'
+};
+}
+练习
+定义一个计算圆面积的函数 area_of_circle()  ，它有*/
+    /*全局作用域
+不在任何函数内定义的变量就具有全局作用域。实际上，JavaScript默认有一个全
+局对象 window  ，全局作用域的变量实际上被绑定到 window  的一个属性：*/
+    //let 是块作用变量；
+   /* var sum=0;
+    for(let i=0;i<1010;i++){
+
+    }*/
+   //let is not support by this version;
+    /**set a const variable*/
+   // const a=100;
+    /*var xiaoming = {
+            name: '小明',
+            birth: 1990,
+            age: function () {
+                var y = new Date().getFullYear();
+                return y - this.birth;
+            }
+        };
+    var age = xiaoming.age; // f
+    alert(age);*/
+
+
+
+
+
+</script>
+
+</body>
+</html>

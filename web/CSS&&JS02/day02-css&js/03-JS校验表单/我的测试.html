@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="#ffefd5">
+<script>
+    function f() {
+        var e=document.getElementById("username");
+        if(e.value.length>6){
+            var str=document.getElementById("password");
+            var ll=str.value.length;
+            if (ll>0 ) {
+                alert("你的密码位数是"+ll);
+                return true;
+            }
+            else {
+                alert("密码不可以为空哦")
+                return false;
+            }
+
+
+        }
+        else {
+            alert("username is too short!!!")
+            return false;
+        }
+
+
+
+    }
+
+
+
+</script>
+<form action="../01-网站首页的优化/网站首页.html" onsubmit="return f()" >
+    用户名:<input type="text" id="username" /><br />
+    密码:<input type="password" id="password" /><br />
+    邮箱:<input type="text" id="email" /><br />
+
+    <input type="submit" value="提交" />
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		
+		<!--
+			1. 导入JQ相关的文件
+			2.  文档加载完成事件: $(function)  : 页面初始化的操作: 绑定事件, 启动页面定时器
+			3. 确定相关操作的事件
+			4. 事件触发函数
+			5. 函数里面再去操作相关的元素
+		-->
+		<script type="text/javascript" src="../../js/jquery-1.11.0.js" ></script>
+		
+		<script>
+			$(function(){
+				
+				//显示页面图片
+				//给按钮绑定事件
+				$("#btn1").click(function(){
+//					$("#img1").show();
+//					$("#img1").slideDown();
+//					$("#img1").fadeIn(5000);
+
+					$("#img1").animate({ width:"800px",opacity:"1"},5000);
+					
+				});
+				
+				//隐藏页面图片
+				$("#btn2").click(function(){
+					//获得img
+//					$("#img1").hide(10000);
+//					$("#img1").slideUp(500);
+//					$("#img1").fadeOut(5000);
+					$("#img1").animate({ width:"1366px",opacity:"0.2"},5000);
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<input type="button" value="显示" id="btn1" /> 
+		<input type="button" value="隐藏" id="btn2"/> <br />
+		<img src="../../img/333.png" id="img1" width="500px" />
+	</body>
+</html>

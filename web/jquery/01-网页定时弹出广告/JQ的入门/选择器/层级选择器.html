@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../../../css/style.css" />
+		<!--引入JQ的文件-->
+		<script type="text/javascript" src="../../../js/jquery-1.11.0.js" ></script>
+		<!--
+			-- 子元素选择器:   选择器1 > 选择器2
+			- 后代选择器:  选择器1 儿孙
+			- 相邻兄弟选择器 :  选择器1 + 选择器2 : 找出紧挨着的一个弟弟
+			- 找出所有弟弟:  选择器1~ 选择器2   : 找出所有的弟弟
+
+		-->
+		<script>
+			//文档加载事件,页面初始化的操作
+			$(function(){
+				//初始化操作: 给按钮绑定事件
+				//找出body下面的子div
+				//body>div;
+				$("#btn1").click(function(){
+					$("body > div").css("background-color","palegreen");					
+				});
+				//找出body下面的所有div
+				//body div中间有空格；
+				$("#btn2").click(function(){
+					$("body div").css("background-color","palegreen");					
+				});
+				$("#btn3").click(function(){
+				    //#one+div;
+					$("#one+div").css("background-color","palegreen");					
+				});
+				$("#btn4").click(function(){
+				    //#two~div;
+					$("#two~div").css("background-color","palegreen");					
+				});
+				
+			});
+		</script>
+	</head>
+	<body>
+		<input type="button" value="找出body下面的子div" id="btn1" />
+		<input type="button" value="找出body下面的所有div" id="btn2" />
+		<input type="button" value="找出id为one的相邻兄弟div" id="btn3" />
+		<input type="button" value="找出id为two的所有弟弟div" id="btn4" />
+		
+		
+		<br />
+		<div id="one">
+			<div class="mini">1-1</div>
+		</div>
+		<div id="two">
+			<div class="mini">2-1</div>
+			<div class="mini">2-2</div>
+		</div>
+		<div id="three">
+			<div class="mini">3-1</div>
+			<div class="mini">3-2</div>
+			<div class="mini">3-3</div>
+		</div>
+		<span id="four">span</span>
+	</body>
+</html>

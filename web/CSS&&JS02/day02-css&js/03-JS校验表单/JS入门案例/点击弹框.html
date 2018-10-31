@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <!--
+        1. 确定事件  点击事件
+        2. 通常事件都会出发一个函数
+        3. 函数里面通常都会去操作页面元素,做一些交互动作
+    -->
+    <script>
+        function dianwo() {
+            //alert("我被点击了");
+            //1.首先要获得这个div
+            var div = document.getElementById("div1")
+            div.innerHTML = "<font color='red'>内容被替换掉了</font>";
+//				div.innerText = "<font color='red'>内容被替换掉了</font>";
+        }
+    </script>
+    <script>
+    function ppx(){
+    var div = document.getElementById("div1")
+    div.innerHTML = "<font color='#f0f8ff'>ppx is commign</font>";
+
+
+    }
+    </script>
+</head>
+<body>
+<input type="button" value="点我,修改DIV中的内容" onclick="dianwo()"/><br>
+<input type="button" value="点我,修改DIV中的内容" onclick="ppx()"/><br>
+
+
+<div id="div1">
+    这里的内容一会要被替换掉
+</div>
+</body>
+</html>

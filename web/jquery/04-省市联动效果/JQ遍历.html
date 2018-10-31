@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!--导入JQ文件-->
+		<script type="text/javascript" src="../js/jquery-1.11.0.js" ></script>
+		<script>
+			var cities = ["深圳市","东莞市","惠州市","广州市"];
+			$(function(){
+				$(cities).each(function(i,n){
+				console.log(this)
+			})
+			})
+			
+			//如何遍历
+			//JQ对象调用遍历
+			/*$(cities).each(function(i,n){
+				console.log(i + " === "+ n);
+			});
+			
+			function aaa(i,n){
+				console.log(i+"   "+n);
+			}*/
+			
+			//JQ的函数调用
+//			var ddd = aaa();
+//			$.each(cities,aaa);
+			
+			
+			/*var cities = ["深圳市","东莞市","惠州市","广州市"];
+			//声明回调函数
+			function callback1(i,n){
+				console.log("123  : " + i + n);
+			}
+			
+			//遍历数据
+			function bianli(arr,callback1){
+				for(var i = 0; i < arr.length; i++){
+					var item = arr[i];
+					callback1(i,item);
+				}
+			}*/
+			
+			//调用
+//			bianli(cities,callback1);
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>

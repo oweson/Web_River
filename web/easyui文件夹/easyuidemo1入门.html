@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>easyui</title>
+    <script>
+
+        function showcontent(language){
+            $('#content').html('Introduction to ' + language + ' language');
+        }
+    </script>
+</head>
+<body>
+<div>
+    <div class="easyui-layout" style="width:400px;height:200px;">
+        <div region="west" split="true" title="Navigator" style="width:150px;">
+            <p style="padding:5px;margin:0;">Select language:</p>
+            <ul>
+                <!--单机传递数据-->
+                <li><a href="javascript:void(0)" onclick="showcontent('java')">Java</a></li>
+                <li><a href="javascript:void(0)" onclick="showcontent('cshape')">C#</a></li>
+                <li><a href="javascript:void(0)" onclick="showcontent('vb')">VB</a></li>
+                <li><a href="javascript:void(0)" onclick="showcontent('erlang')">Erlang</a></li>
+            </ul>
+        </div>
+        <div id="content" region="center" title="Language" style="padding:5px;">
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+</html>

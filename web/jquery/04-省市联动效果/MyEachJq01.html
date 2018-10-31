@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../js/jquery-1.11.0.js" ></script>
+    <script>
+        var as=["ppx","rose","oweson"];
+        //jq对象调用遍历；
+        //1js数组；
+        $(as).each(function (i,n) {
+            //2把js对象放入（）中就变成了jquery对象；
+            document.writeln(i+" "+n);
+            //3is是下表，n是内容；
+
+        });//-----------------------------
+        //jquery调用
+        $.each(as,function (i,n) {
+            document.writeln(i+"is;"+n);
+            //建议用第二个；
+
+
+        });
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

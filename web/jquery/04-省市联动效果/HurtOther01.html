@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../js/jquery-1.11.0.js" ></script>
+    <script>
+        $(function () {
+            //1文档加载完成事件；
+            $("#hurt").click(function () {
+                //2为按钮绑定事件
+                $("#div1").append("<font color=\"red\",size=\"8\">come here to hurt eacher other!!!<font/>");
+
+            });
+
+        });
+    </script>
+
+</head>
+<body>
+<input type="button" value="hurt other" id="hurt"/>
+<div id="div1">
+    hello
+</div>
+
+</body>
+</html>

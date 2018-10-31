@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../../../css/style.css" />
+		<!--引入JQ的文件-->
+		<script type="text/javascript" src="../../../js/jquery-1.11.0.js" ></script>
+		<!--
+			选择器:first
+		-->
+		<script>
+			//文档加载事件,页面初始化的操作
+			$(function(){
+				
+				//初始化操作: 给按钮绑定事件
+				//过滤出所有div中第一个元素
+				$("#btn1").click(function(){
+					$("div:first").css("background-color","palegreen");					
+				});
+				
+				//过滤出所有div中偶数位的div
+				$("#btn2").click(function(){
+					$("div:even").css("background-color","palegreen");					
+				});
+				$("#btn3").click(function(){
+					$("div:odd").css("background-color","palegreen");					
+				});
+				$("#btn4").click(function(){
+					$("div:gt(2)").css("background-color","palegreen");					
+				});
+				$("#btn5").click(
+				    function () {
+				        $("div:odd").css("background-color","red");
+
+                    }
+				);
+			
+			});
+		</script>
+	</head>
+	<body>
+		<input type="button" value="过滤出所有div中第一个元素" id="btn1" />
+		<input type="button" value="过滤出所有div中偶数位的div" id="btn2" />
+		<input type="button" value="过滤出所有div中奇数位的div" id="btn3" />
+		<input type="button" value="过滤出所有div中找出索引大于2" id="btn4" />
+		<input type="button" value="checksth" id="btn5"/>
+		
+		
+		<br />
+		<div id="one">  <!-- 0 -->
+			<div class="mini">1-1</div>  <!-- 1 -->
+		</div>
+		<div id="two">  <!-- 2 -->
+			<div class="mini">2-1</div> <!-- 3 -->
+			<div class="mini">2-2</div> <!-- 4 -->
+		</div>
+		<div id="three">
+			<div class="mini">3-1</div>
+			<div class="mini">3-2</div>
+			<div class="mini">3-3</div>
+		</div>
+		<span id="four">span</span>
+	</body>
+</html>

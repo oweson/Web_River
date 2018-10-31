@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://how2j.cn/study/vue.min.js"></script>
+</head>
+<body>
+<style>
+    table tr td {
+        border: 1px solid gray;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 300px;
+    }
+
+    tr.firstLine {
+        background-color: lightGray;
+    }
+</style>
+
+<div id="div1">
+
+    <table align="center">
+        <tr class="firstLine">
+            <td>name</td>
+            <td>hp</td>
+        </tr>
+
+        <tr v-for="hero in heros">
+            <td>{{hero.name}}</td>
+            <td>{{hero.hp}}</td>
+        </tr>
+        <tr v-for="a in oweson">
+            <td>{{a}}</td>
+        </tr>
+        <tr v-for="(k,v) in jj">
+            <td>{{$k}}</td>
+            <td>{{$v}}</td>
+            <td>{{$index}}</td>
+        </tr>
+
+    </table>
+
+</div>
+<script>
+
+    var data = [
+        {name: "盖伦", hp: 341},
+        {name: "提莫", hp: 225},
+        {name: "安妮", hp: 427},
+        {name: "死歌", hp: 893}
+    ];
+    var ppx=[1,2,3,4,5,6];
+    json={a:"ppx",b:"oweson"}
+    new Vue({
+        el: '#div1',
+        data: {
+            heros: data,
+            oweson:ppx,
+            //jj:json
+        }
+    })
+</script>
+
+</body>

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>$Title$</title>
+    <link href="http://g.alicdn.com/sj/dpl/1.5.1/css/sui.min.css" rel="stylesheet">
+    <script type="text/javascript" src="http://g.alicdn.com/sj/lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="http://g.alicdn.com/sj/dpl/1.5.1/js/sui.min.js"></script>
+</head>
+<body>
+<ul class="sui-breadcrumb">
+    <li><a href="#">首页</a></li>
+    <li><a href="#">手机数码、电脑办公</a></li>
+    <li class="active">智能手机</li>
+</ul>
+<div class="sui-msg msg-large msg-block msg-success">
+    <div class="msg-con">
+        新的待办事项”晚上9点拿夜宵”创建成功！
+    </div>
+    <s class="msg-icon"></s>
+</div>
+<form class="sui-form form-horizontal" action="" method="post" id="servingForm">
+    <div class="control-group">
+        <label class="control-label">名称：</label>
+        <div class="controls">
+            <input class="input-xlarge" type='text' />
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">时间：</label>
+        <div class="controls">
+            <select class="input-medium " name='month'>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">8</option>
+                <option value="8">9</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+            月
+            <select class="input-medium " name='date'>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">8</option>
+                <option value="8">9</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+            日
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">补充说明：</label>
+        <div class="controls">
+            <textarea class='input-xlarge'></textarea>
+        </div>
+    </div>
+    <div class="control-group">
+        <div class="controls">
+            <button class="sui-btn btn-primary btn-xlarge">创建待办事项</button>
+        </div>
+    </div>
+    <form class="sui-form form-horizontal sui-validate">
+        <div class="control-group">
+            <label for="inputEmail" class="control-label">邮箱：</label>
+            <div class="controls">
+                <input type="text" id="inputEmail" name="name" placeholder="邮箱" data-rules="required|email">
+            </div>
+        </div>
+        <div class="control-group">
+            <label for="inputPassword" class="control-label">密码：</label>
+            <div class="controls">
+                <input type="password" id="inputPassword" name="password" placeholder="密码" data-rules="required" title="密码">
+            </div>
+        </div>
+        <div class="control-group">
+            <label for="inputRepassword" class="control-label">重复密码：</label>
+            <div class="controls">
+                <input type="password" id="inputRepassword" name="repassword" placeholder="重复密码" data-rules="required|match=password">
+            </div>
+        </div>
+        <div class="control-group">
+            <label for="inputGender" class="control-label">性别：</label>
+            <div class="controls">
+                <label data-toggle="radio" class="radio-pretty inline">
+                    <input type="radio" name="gender" value="1" data-rules="required"><span>男</span>
+                </label>
+                <label data-toggle="radio" class="radio-pretty inline">
+                    <input type="radio" name="gender" value="2" data-rules="required"><span>女</span>
+                </label>
+            </div>
+        </div>
+        <div class="control-group">
+            <label for="inputPassword" class="control-label">年龄：</label>
+            <div class="controls">
+                <input type="text" id="inputPassword" name="age" placeholder="整数，需要小于100" data-rules="required|number|lt=100" title="年龄">
+            </div>
+        </div>
+        <div class="control-group">
+            <label for="inputGender" class="control-label">地址：</label>
+            <div class="controls"><span class="sui-dropdown dropdown-bordered select"><span class="dropdown-inner"><a role="button" data-toggle="dropdown" href="#" class="dropdown-toggle">
+            <input name="city" type="hidden" data-rules="required"><i class="caret"></i><span>请选择</span></a>
+          <ul id="menu4" role="menu" aria-labelledby="drop4" class="sui-dropdown-menu">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="bj">北京</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0);" value="sb">圣彼得堡</a></li>
+          </ul></span></span></div>
+        </div>
+        <div class="control-group">
+            <label for="inputDes" class="control-label v-top">自我介绍：</label>
+            <div class="controls">
+                <textarea id="inputDes" name="des" placeholder="自我介绍" data-rules="required"></textarea>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label"></label>
+            <div class="controls">
+                <button type="submit" class="sui-btn btn-primary">立即注册</button>
+            </div>
+        </div>
+    </form>
+    <form id="form5" class="sui-form form-horizontal" novalidate="novalidate">
+        <div class="control-group">
+            <label for="inputEmail" class="control-label">邮箱：</label>
+            <div class="controls">
+                <input type="text" id="inputEmail" name="email" placeholder="邮箱">
+            </div>
+        </div>
+        <div class="control-group">
+            <label for="inputPassword" class="control-label">密码：</label>
+            <div class="controls">
+                <input type="password" id="inputPassword" name="password" placeholder="密码" title="密码">
+            </div>
+        </div>
+        <div class="control-group">
+            <label for="inputRepassword" class="control-label">重复密码：</label>
+            <div class="controls">
+                <input type="password" id="inputRepassword" name="repassword" placeholder="重复密码">
+            </div>
+        </div>
+        <div class="control-group">
+            <label for="inputGender" class="control-label">性别：</label>
+            <div class="controls">
+                <label data-toggle="radio" class="radio-pretty inline">
+                    <input type="radio" name="gender" value="1"><span>男</span>
+                </label>
+                <label data-toggle="radio" class="radio-pretty inline">
+                    <input type="radio" name="gender" value="2"><span>女</span>
+                </label>
+            </div>
+        </div>
+        <div class="control-group">
+            <label for="sanwei" class="control-label">三维：</label>
+            <div class="controls">
+                <input type="text" id="sanwei" name="sanwei" placeholder="三维">
+                <div class="sui-msg msg-tips msg-naked">
+                    <div class="msg-con">女生必填</div>
+                    <s class="msg-icon"></s>
+                </div>
+            </div>
+        </div>
+        <div class="control-group">
+            <label for="sanwei" class="control-label"></label>
+            <div class="controls">
+                <button type="submit" class="sui-btn btn-primary">立即注册</button>
+            </div>
+        </div>
+    </form>
+    <script>
+        $("#form5").validate({
+            rules: {
+                email: {
+                    required: true,
+                    minlength: 2,
+                    maxlength: 10
+                },
+                password: {
+                    required: true,
+                    minlength: 6,
+                    maxlength: 12
+                },
+                repassword: {
+                    required: true,
+                    prefill: 'password',
+                    match: 'password'
+                },
+                sanwei: {
+                    required: function($input) {
+                        var value = $input.val()
+                        var $form = $input.parents("form")
+                        var gender = $form.find("[name='gender']:checked").val()
+                        if (gender == 2 && !value) {
+                            return false
+                        }
+                        return true
+                    }
+                },
+                gender: {
+                    required: true
+                }
+            },
+            messages: {
+                email: "亲，你连邮箱都没有么"
+            },
+            success: function() {
+                $.alert("恭喜，没有问题了。");
+                return false;
+            }
+        })
+    </script>
+</form>
+$END$
+</body>
+</html>

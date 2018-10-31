@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function shows() {
+            var elementById = document.getElementById("img1");
+            elementById.style.display="block";
+
+
+        }
+        function hiddens() {
+            var elementById = document.getElementById("img1");
+            //not jquery needn't #;
+
+            elementById.style.display="none";
+
+
+        }
+
+    </script>
+</head>
+<body>
+<input type="button" value="show" onclick="shows()"/><br>
+<input type="button" value="hidden" onclick="hiddens()"/>/
+<img src="../img/4.jpg" id="img1"/>
+
+</body>
+</html>

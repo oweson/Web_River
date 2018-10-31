@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="../../../js/jquery-1.11.0.js" ></script>
+		
+		<script>
+			$(function () {
+			    //文档加载时间的完成;
+				$("a[href][title='op']").css("color","pink");
+
+            });
+			
+			$(function(){
+				//通过属性选择器去找到 a href
+//				$("a[href]").css("color","red");   //只有一个属性
+				//找出包含 href ,title
+//				$("a[href][title]").css("color","red");  // 多个属性
+				//找出包含herf title 并且 title ='testTitle'
+				$("a[href][title='testTitle']").css("color","deeppink");  //多个属性 ,并且指定值
+			});
+			
+		</script>
+	</head>
+	<body>
+	<a href="hahhhha" title="op">ppx</a>
+		<a href="#">herf 111</a>
+		<br />
+		<a href="#" title="testTitle">herf 222</a>
+	</body>
+</html>

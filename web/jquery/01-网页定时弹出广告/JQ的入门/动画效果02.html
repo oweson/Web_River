@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../../js/jquery-1.11.0.js" ></script>
+
+</head>
+<body>
+<script>
+    $(function () {
+        $("#btn1").click(function () {
+            //$("#img1").hide();
+            $("#img1").slideUp(5000)
+            //参数控制速递
+
+        });
+        $("#btn2").click(function () {
+           // $("#img1").slideDown(5000);
+            $("#img1").fadeIn(5000);
+            //显示，out是推出；
+            //淡入淡出，朦胧美
+
+
+        });
+
+    });
+
+
+</script>
+<input type="button" value="hide" id="btn1"/><br>
+<input type="button" value="show" id="btn2"/>
+<img id="img1" src="../../img/f001a62f-a49d-4a4d-b56f-2b6908a0002c_g.jpg" width="800px"/>
+</body>
+</html>

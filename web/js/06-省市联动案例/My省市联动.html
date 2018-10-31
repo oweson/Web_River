@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        /*
+				1准备工作 : 准备数据
+			*/
+        var provinces = [
+            ["深圳市","东莞市","惠州市","广州市"],
+            ["长沙市","岳阳市","株洲市","湘潭市"],
+            ["厦门市","福州市","漳州市","泉州市"]
+        ];
+        function specialFun() {
+            var provinceById = document.getElementById("province");
+            //得到城市的value之；
+            var value = provinceById.value;
+            //2从数组中取值;
+            var province = provinces[value];
+            //3下表是对应的；得到的数组；
+            //3-1
+            var city = document.getElementById("city");
+            for (var i=0;i<province.length;i++){
+                //4动态的创建诚实的节点；
+                var elementtext = province[i];
+                var htmlOptionElement = document.createElement("option");
+                //5创建城市文本节点；
+                var text = document.createTextNode(elementtext);
+                htmlOptionElement.appendChild(text);
+                //6添加select
+                city.appendChild(htmlOptionElement);
+
+            }
+
+
+
+
+
+        }
+
+    </script>
+</head>
+<body>
+<!--选择省份-->
+<select onchange="specialFun()" id="province">
+    <option value="-1">--请选择--</option>
+    <option value="0">广东省</option>
+    <option value="1">湖南省</option>
+    <option value="2">福建省</option>
+</select>
+<!--选择城市-->
+<select id="city"></select>
+
+</body>
+</html>

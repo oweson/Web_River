@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../js/jquery-1.11.0.js" ></script>
+    <script>
+        var as=["ppx","rose","oweson"];
+        //1jquery原理
+        function callback1(i,n) {
+            document.writeln(i+" "+n);
+
+        }
+        function bianli(arr,callback1) {
+            for(var i=0;i<arr.length;i++) {
+                var item=arr[i];
+
+
+                callback1(i,item);
+            }
+
+        }
+        bianli(as,callback1);
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function add(a,b) {
+        return a+b;
+
+    }
+    var add1 = add(100,1000);
+    document.write(add1);
+
+    var array = new Array(1,2,3);
+    var arr = [1, 2, 3.14, 'Hello', null, true];
+    //这才是标准；
+    document.write(arr[1]);
+    arr[0]; // 返回索引为0的元素，即1
+    arr[5]; // 返回索引为5的元素，即true
+    arr[6]; // 索引超出了范围，返回undefined
+
+
+</script>
+
+</body>
+</html>

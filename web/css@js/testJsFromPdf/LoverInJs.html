@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    var student={
+        //js中的对象
+        age:21,
+        name:'xiaoming',
+        address:'henan'
+    }
+    student.lover;
+    student.lover='i dont know';
+    //js是动态来兴的访问不存在的东西就会undefined,然后可以赋值
+    delete student.age;
+    //delete age for student;
+    document.write(student.age);
+    document.write(student.lover)
+    'age' in student//false;
+    /*因为 toString  定义在 object  对象中，而所有对象最终都会在原型链上指
+向 object  ，所以 xiaoming  也拥有 toString  属性。
+要判断一个属性是否是 xiaoming  自身拥有的，而不是继承得到的，可以
+用 hasOwnProperty()  方法：*/
+    document.writeln(student.hasOwnProperty('name'));
+    //true;
+    /*但是我们通常把 else if  连写在一起，来增加可读性。这里的 else  略掉
+了 {}  是没有问题的，因为它只包含一个 if  语句。注意最后一个单独
+的 else  不要略掉 {}  。*/
+    var age=21;
+    if(age>1 || age>21){
+        alert("you can watching yellow movie...");
+    }
+    else if(age<-100){
+        alert();
+    }
+    else {
+
+    }
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+.logo{
+				float: left;
+				width: 33%;
+				/*border-width: 1px;
+				border-style: solid;
+				border-color: red;*/
+				height: 60px;
+				line-height: 60px;
+		/*		border: 1px solid red;*/
+			}
+			
+			
+			.amenu{
+				color: white;
+				text-decoration: none;
+				height: 50px;
+				line-height: 50px;
+			}
+			
+			.product{
+				float: left; text-align: center; width: 16%; height: 240px;
+			}
+			

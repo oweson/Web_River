@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!--
+			1.校验用户名, 长度不能小于6位
+				1.确定事件: 提交事件 onsubmit
+				2.事件要触发函数 checkForm()
+				3. 函数中要去做一些校验
+		-->
+		<script>
+			function checkForm(){
+				
+				//获取用户输入的内容
+				var elementById = document.getElementById("username");
+				if(elementById.value.length>6){
+
+				}else{
+				    alert("you name is too short");
+				    return false;
+				}
+				//验证密码；
+				var elementById1 = document.getElementById("password");
+				if(elementById1.valueOf().length>6){
+
+				}else{
+				    alert("you password is too short");
+				    return false;
+				}
+
+
+				/*var input1 = document.getElementById("username");
+//				alert(input1.value);
+				var uValue = input1.value;
+				if(input1.value.length >= 6){
+					
+				}else{
+					alert("对不起,用户名太短啦!")
+					return false;
+				}*/
+				
+				//邮箱的校验
+				//获取用户输入的邮箱的值
+				var email = document.getElementById("email")
+				var uEmail = email.value;
+				if(/^[a-z0-9]+([._\\-]*[a-z0-9])*@([a-z0-9]+[-a-z0-9]*[a-z0-9]+.){1,63}[a-z0-9]+$/.test(uEmail)){
+					alert("校验成功");
+				}else{
+					alert("校验失败")
+					return false;
+				}
+				
+				return true;;
+			}
+		</script>
+		
+	</head>
+	<body>
+	<!--试图在validateForm()中return false来阻止表单的提交。实际上的效果是即使return false 表单 还是会提交。后来发现 onsubmit="return validateForm()"就没有问题了，当时也没有多想就继续做其它事情了。-->
+		<form action="../01-网站首页的优化/网站首页.html" onsubmit=" return checkForm()" >
+			用户名:<input type="text" id="username" /><br />
+			密码:<input type="password" id="password" /><br />
+			邮箱:<input type="text" id="email" /><br />
+			
+			<input type="submit" value="提交" />
+			<input type="submit" value="submit"/>
+			<!--提交除法submit事件-->
+		</form>
+	</body>
+</html>

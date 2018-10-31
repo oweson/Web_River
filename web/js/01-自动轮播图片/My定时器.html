@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //1window是一个最顶层的对象，可以不写；
+    var speId;
+    function pao() {
+        alert('paopao');
+
+    }
+    function open(){
+        speId=setInterval("pao()",2100);
+    }
+    function close() {
+        clearInterval(speId);
+
+    }
+   // window.setInterval("ppa()",2100);
+   // setTimeout(2100);
+    //2秒后吃腥后就不会吃行了；
+    //
+    setTimeout();
+    clearTimeout();
+    //set and cancel;
+
+
+
+
+</script>
+<input type="button" value="open" onclick="open()"/>
+<input type="button" value="close" onclick="close()"/>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*avaScript把 null  、 undefined  、 0  、 NaN  和空字符串 ''  视为 false  ，
+其他值一概视为 true  ，因此上述代码条件判断的结果是 true  。*/
+   /* var s="hello";
+    if(s.length){
+        alert('ppx let');
+    }else {
+        alert();
+    }
+    //循环；
+    var sum=1,i;
+    for(i=1;i<10;i++){
+
+        sum*=i;
+    }
+    alert(sum);*/
+   //use for to foreach array;
+   /* var aa=['apple','bnana'];
+    var x,i;
+    for(x=0;x<aa.length;x++){
+        i=aa[x];
+        alert(i);
+    }*/
+   //for  循环的一个变体是 for ... in  循环，它可以把一个对象的所有属性依次循
+   /* var o = {
+        name: 'Jack',
+        age: 20,
+        city: 'Beijing'
+    };
+    for(var oweson in o){
+        alert(oweson);
+    }*/
+
+    //要过滤掉对象继承的属性，用 hasOwnProperty()  来实现：
+    /*要过滤掉对象继承的属性，用 hasOwnProperty()  来实现：
+var o = {
+name: 'Jack',
+age: 20,
+city: 'Beijing'
+};
+for (var key in o) {
+if (o.hasOwnProperty(key)) {
+alert(key); // 'name', 'age', 'city'
+}
+}*/
+   // 由于 Array  也是对象，而它的每个元素的索引被视为对象的属性，因此， for
+        //... in  循环可以直接循环出 Array  的索引：
+   /* var ppx=['a','b'];
+    for (var ps in ppx){
+        alert(ps);
+        alert(ppx[ps]);
+    }*/
+
+    //请注意， for ... in  对 Array  的循环得到的是 String  而不是 Number  。
+    var n=0;
+    do {
+        n=n+1;
+    } while (n<1010);
+    document.write(n);
+
+
+
+</script>
+
+</body>
+</html>

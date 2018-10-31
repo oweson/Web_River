@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../../js/jquery-1.11.0.js" ></script>
+
+    <script>
+        function showSth() {
+            var elementById = document.getElementById("div1");
+           // elementById.innerHTML="water by js";
+            //两者自己建的装欢；
+            $(elementById).html('water by js');
+
+
+        }
+        $(function () {
+            $("#btn2").click(function () {
+                var $pao=$("#div1");
+                var pao=$pao.get(0);
+                //$pao[0];
+                pao.innerHTML="hello,world";
+              //  $("#div1").html('water bby jquery....................')
+
+            });
+
+        });
+
+
+
+    </script>
+</head>
+<body>
+<input type="button" value="this is js" onclick="showSth()"/><br>
+<input type="button" value="this is jquery" id="btn2"/>
+<div id="div1">世态炎凉</div>
+
+</body>
+</html>

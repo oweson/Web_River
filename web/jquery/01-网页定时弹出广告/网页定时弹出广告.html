@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="../js/jquery-1.11.0.js" ></script>
+		<!--
+			1. 导入JQ的文件
+			2. 编写JQ的文档加载事件
+			3.  启动定时器 setTimeout("",3000);
+			4. 编写显示广告的函数
+			5. 在显示广告里面再启动一个定时器
+			6. 编写隐藏广告的函数
+		-->
+		<script>
+			//显示广告
+			function showAd(){
+				$("#img1").slideDown(2000);
+				setTimeout("hideAd()",3000);
+			}
+			
+			//隐藏广告
+			function hideAd(){
+				$("#img1").slideUp(2000);
+			}
+			
+			
+			$(function(){
+				setTimeout("showAd()",3000);
+				
+			});
+		</script>
+	</head>
+	<body>
+		<img src="../img/f001a62f-a49d-4a4d-b56f-2b6908a0002c_g.jpg" id="img1" width="100%" style="display:none"  />
+	</body>
+</html>

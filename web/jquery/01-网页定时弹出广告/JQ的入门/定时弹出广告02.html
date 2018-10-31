@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../../js/jquery-1.11.0.js"></script>
+
+    <script>
+        function hideID() {
+            $("#img1").slideUp(2100);
+
+        }
+        function showID(){
+            $("#img1").slideDown(2100);
+            setTimeout("hideID()",2100);
+        }
+        $(function () {
+            //文档简直完成;
+            setTimeout("showID()",2100);
+
+        });
+
+    </script>
+
+</head>
+<body>
+<img src="../../img/f001a62f-a49d-4a4d-b56f-2b6908a0002c_g.jpg" width="100%" style="display: none" id="img1"/>
+
+</body>
+</html>
