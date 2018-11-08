@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+
+</head>
+<body>
+<script type="text/javascript">
+    function login() {
+        $("input[type='text']").each(function () {
+            if ($(this).val() == "") {
+                alert("不能为空！");
+                $(".dlsubmit").attr("disabled", true);
+                $("input").focus(function () {
+                    $(".dlsubmit").attr("disabled", false);
+                });
+            }
+        });
+    }
+</script>
+<form action="${pageContext.request.contextPath}/user/login"
+      method="post">
+    用户名<input type="text" class="yhm" name="username"/>
+    <br/>密码<input
+        type="password" class="yhmpw" name="sex"/>
+    <br/>登陆 <input
+        type="submit" onclick="login()" class="dlsubmit" value="登陆"/>
+</form>
+
+</body>
+</html>

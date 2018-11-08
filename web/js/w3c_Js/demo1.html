@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" name="name" value="ppx" id="a">
+<script>
+    /* function内 加上var 代表局部变量,*/
+    x = document.getElementById("a");
+    /*插入元素*/
+    x.innerHTML = "ppx is comming";
+    x.style.color = "pink";
+
+
+</script>
+<script>
+    document.write("<h1>This is a heading</h1>");
+    document.write("<p>This is a paragraph</p>");
+</script>
+<h1>my web page</h1>
+<p id="demo">hi:</p>
+<button type="button" id="demo" onclick="f()">click</button>
+<script>
+    function f() {
+        document.getElementById("demo").innerHTML = "ppx.................";
+
+
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--1 email 类型用于应该包含 e-mail 地址的输入域。
+
+在提交表单时，会自动验证 email 域的值。-->
+email:<input type="email" name="email">
+<!--2 Input 类型 - url
+url 类型用于应该包含 URL 地址的输入域。
+
+在提交表单时，会自动验证 url 域的值。-->
+homepgaeurl:<input type="url" name="url">
+<!--3 Input 类型 - number
+number 类型用于应该包含数值的输入域。
+
+您还能够设定对所接受的数字的限定：-->
+<input type="number" name="number" min="1" max="21">
+<!-- 4 Input 类型 - range
+range 类型用于应该包含一定范围内数字值的输入域。
+
+range 类型显示为滑动条。
+
+您还能够设定对所接受的数字的限定：-->
+point:<input type="range" min="1" max="10" name="range">
+<!--5HTML5 拥有多个可供选取日期和时间的新输入类型：
+
+date - 选取日、月、年
+month - 选取月、年
+week - 选取周和年
+time - 选取时间（小时和分钟）
+datetime - 选取时间、日、月、年（UTC 时间）
+datetime-local - 选取时间、日、月、年（本地时间）
+下面的例子允许您从日历中选取一个日期：-->
+date:<input type="date" name="date">
+<!--6 height 和 width 属性
+height 和 width 属性规定用于 image 类型的 input 标签的图像高度和宽度。
+
+注释：height 和 width 属性只适用于 image 类型的 <input> 标签。-->
+<input type="image" height="99" width="100" src="pic.png">
+<!-- 7 list 属性
+list 属性规定输入域的 datalist。datalist 是输入域的选项列表。
+
+注释：list 属性适用于以下类型的 <input> 标签：text,
+search, url, telephone, email, date pickers, number, range 以及 color。-->
+Webpage: <input type="url" list="url_list" name="link"/>
+<datalist id="url_list">
+    <option label="W3Schools" value="http://www.w3school.com.cn"/>
+    <option label="Google" value="http://www.google.com"/>
+    <option label="Microsoft" value="http://www.microsoft.com"/>
+</datalist>
+
+</body>
+</html>
