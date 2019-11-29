@@ -4,43 +4,53 @@
     <meta charset="UTF-8">
     <title>变量</title>
 
-    <script >
+    <script>
 
-        //定义变量
-       /* var a  = 3;
-        alert(a);
+        // 1 定义变量
+        /* var a  = 3;
+         alert(a);
+          a = "abc";
+         alert(a);*/
+        var x = 100;
+        y = 200;
+        var z = NaN;
+        /*NaN是number类型
+       // typeof NaN 'number'
 
-        a = "abc";
-        alert(a);*/
+NaN意思是Not A Number(不是数字), 它不是JavaScript仅有的，而是IEEE754标准规定的双精度浮点小数类型的特殊值。
 
-       //定义number类型
+Java的double与JavaScript的number是一样的，也有not a number.*/
+        alert(x * y)
+        document.writeln(x + y + "<br>")
+
+        // 2 定义number类型
 
         var num = 1;
         var num2 = 1.2;
         var num3 = NaN;
 
         //输出到页面上
-        document.write(num+"<br>");
-        document.write(num2+"<br>");
-        document.write(num3+"<br>");
+        document.write(num + "<br>");
+        document.write(num2 + "<br>");
+        document.write(num3 + "<br>");
         //定义string类型
 
         var str = "abc";
         var str2 = 'edf';
-        document.write(str+"<br>");
-        document.write(str2+"<br>");
+        document.write(str + "<br>");
+        document.write(str2 + "<br>");
 
         //定义boolean
         var flag = true;
-        document.write(flag+"<br>");
+        document.write(flag + "<br>");
 
         // 定义null,undefined
         var obj = null;
         var obj2 = undefined;
-        var obj3 ;
-        document.write(obj+"<br>");
-        document.write(obj2+"<br>");
-        document.write(obj3+"<br>");
+        var obj3;
+        document.write(obj + "<br>");
+        document.write(obj2 + "<br>");
+        document.write(obj3 + "<br>");
 
     </script>
 

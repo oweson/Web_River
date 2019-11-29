@@ -5,13 +5,22 @@
     <title>for语句</title>
     <script>
 
-       //1 ~ 100 求和  5050
+        //1 ~ 100 求和  5050
         var sum = 0;
-        for (var i = 1; i <= 100; i ++){
+        for (var i = 1; i <= 100; i++) {
             sum += i;
         }
         alert(sum);
+        console.log("ppx")
+        var x = 0
+        for (var i = 0; i < 100; i++) {
+            if (i % 2 != 0) {
+                continue;
+            }
+            x += i;
 
+        }
+        document.writeln("1-100的基数的值为：  " + x);
     </script>
 </head>
 <body>

@@ -4,44 +4,50 @@
     <meta charset="UTF-8">
     <title>变量</title>
 
-    <script >
+    <script>
+        // typeof用于判断一个变量的类型
+        var x = 100;
+        var y = "";
+        var z = null;
+        document.writeln(x + "=======" + typeof (x) + "<br>");
+        document.writeln(y + "=========" + typeof(y) +"<br>");
 
         //定义变量
-       /* var a  = 3;
-        alert(a);
+        /* var a  = 3;
+         alert(a);
 
-        a = "abc";
-        alert(a);*/
+         a = "abc";
+         alert(a);*/
 
-       //定义number类型
+        //定义number类型
 
         var num = 1;
         var num2 = 1.2;
         var num3 = NaN;
 
         //输出到页面上
-        document.write(num+"---"+typeof(num)+"<br>");
-        document.write(num2+"---"+typeof(num2)+"<br>");
-        document.write(num3+"---"+typeof(num3)+"<br>");
+        document.write(num + "---" + typeof (num) + "<br>");
+        document.write(num2 + "---" + typeof (num2) + "<br>");
+        document.write(num3 + "---" + typeof (num3) + "<br>");
 
         //定义string类型
 
         var str = "abc";
         var str2 = 'edf';
-        document.write(str+"---"+typeof(str)+"<br>");
-        document.write(str2+"---"+typeof(str2)+"<br>");
+        document.write(str + "---" + typeof (str) + "<br>");
+        document.write(str2 + "---" + typeof (str2) + "<br>");
 
         //定义boolean
         var flag = true;
-        document.write(flag+"---"+typeof(flag)+"<br>");
+        document.write(flag + "---" + typeof (flag) + "<br>");
 
         // 定义null,undefined
         var obj = null;
         var obj2 = undefined;
-        var obj3 ;
-        document.write(obj+"---"+typeof(obj)+"<br>");
-        document.write(obj2+"---"+typeof(obj2)+"<br>");
-        document.write(obj3+"---"+typeof(obj3)+"<br>");
+        var obj3;
+        document.write(obj + "---" + typeof (obj) + "<br>");
+        document.write(obj2 + "---" + typeof (obj2) + "<br>");
+        document.write(obj3 + "---" + typeof (obj3) + "<br>");
 
     </script>
 
