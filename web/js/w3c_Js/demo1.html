@@ -7,13 +7,27 @@
 <body>
 <input type="text" name="name" value="ppx" id="a">
 <script>
-    /* function内 加上var 代表局部变量,*/
+    /*function Object() { [native code] }默认的构造函数属性*/
+    var a = {name: 'ppx', age: 23}
+    document.writeln(a.constructor)
+</script>
+<script>
+    var x = 10;
+    var y = 10;
+    alert("x+y is" + x + y);
+    // 1010 字符串！！！
+    // 2 获得某一天
+    var date = Date.getDate();
+    alert(date);
+    var a = 5//2;
+    var b = 5 / 2;
+</script>
+<script>
+    /* 1 function内 加上var 代表局部变量,*/
     x = document.getElementById("a");
     /*插入元素*/
     x.innerHTML = "ppx is comming";
     x.style.color = "pink";
-
-
 </script>
 <script>
     document.write("<h1>This is a heading</h1>");

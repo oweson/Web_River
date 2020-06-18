@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AnalysisProjectProfileManager">
-<<<<<<< HEAD
-    <option name="PROJECT_PROFILE" />
-    <option name="USE_PROJECT_LEVEL_SETTINGS" value="false" />
-=======
     <option name="PROJECT_PROFILE" value="Project Default" />
     <option name="USE_PROJECT_LEVEL_SETTINGS" value="false" />
     <scopes />
@@ -464,7 +460,6 @@
         <coding_rule class="XSS_REQUEST_PARAMETER_TO_SERVLET_WRITER" level="CRITICAL" enabled="true" />
       </profile>
     </profiles>
->>>>>>> e51193fee016a9aa70466e0d5dca6f86efb16dbe
     <list size="0" />
   </component>
 </project>

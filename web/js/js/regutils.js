@@ -1,5 +1,5 @@
 /* 
-用途：检查输入的Email信箱格式是否正确 
+1 用途：检查输入的Email信箱格式是否正确
 输入：strEmail：字符串 
 返回：如果通过验证返回true,否则返回false 
 */
@@ -16,7 +16,7 @@ function checkEmail(strEmail)
 };
  
 /*
-用途：校验ip地址的格式 
+2 用途：校验ip地址的格式
 输入：strIP：ip地址 
 返回：如果通过验证返回true,否则返回false； 
 */
