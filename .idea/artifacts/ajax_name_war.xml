@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="ajax_name:war">
-    <output-path>$PROJECT_DIR$/ajax_name/target</output-path>
-    <root id="archive" name="ajax_name-1.0-SNAPSHOT.war">
-      <element id="artifact" artifact-name="ajax_name:war exploded" />
-    </root>
-  </artifact>
-</component>
