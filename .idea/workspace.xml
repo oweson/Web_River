@@ -2,18 +2,410 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7ad0e42-63ff-4357-91df-ab434703b7e2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thymeleaf/src/main/main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thymeleaf/src/test/test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/guigu/对象01.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/js/regutils.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/js/regutils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/jsbasic/demo1-js.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/w3c_Js/demo1.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/w3c_Js/demo1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js01/案例一：使用JS完成注册页面表单校验/01_使用JS完成注册页面表单校验.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/js01/案例一：使用JS完成注册页面表单校验/01_使用JS完成注册页面表单校验.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js01/案例一：使用JS完成注册页面表单校验/获取元素/获取元素.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/js01/案例一：使用JS完成注册页面表单校验/获取元素/获取元素.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js01/案例三：使用JS完成首页定时弹出广告图片/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js01/案例三：使用JS完成首页定时弹出广告图片/1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js01/案例四：表单校验功能完善/注册页面表单校验完善.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/js01/案例四：表单校验功能完善/注册页面表单校验完善.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/day05.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/jquery/jQuery验证控件.mht" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/jquery/validate/jquery.validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/jquery/validate/messages_zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/.project~HEAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/.project~origin_master" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/bank_img/abc.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/bank_img/bc.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/bank_img/bcc.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/bank_img/beijingnongshang.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/bank_img/bh.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/bank_img/bj.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/bank_img/ccb.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/bank_img/cib.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/bank_img/cmb.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/bank_img/cmbc.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/bank_img/dy.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/bank_img/gf.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/bank_img/guangda.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/bank_img/hx.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/bank_img/icbc.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/bank_img/nanjing.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/bank_img/ningbo.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/bank_img/pingan.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/bank_img/post.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/bank_img/sfz.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/bank_img/sh.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/bank_img/shpd.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/bank_img/zheshang.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/bank_img/zx.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/cart.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/059b5245-e3c8-43bf-80fe-700f0e4e68b8-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/0ff130db-0a1b-4b8d-a918-ed9016317009-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/4a51167a-89d5-4710-aca2-7c76edc355b8-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/51afeef5-f6cb-4936-abea-315cfca0edc0-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/54890cf9-91b0-40bc-9f68-51462e9c43a8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/750a9ce8-8c19-444d-b8cc-f3e7e786ec5d-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/93b9e55f-cbae-4c3c-b2f7-2636c7369db7-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/My97DatePicker.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/adidas.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/base64.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/beijirong.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/bigPic13867cc1-935a-4a3a-98f9-edf87ddb1c09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/bigPic372e7faa-3ad0-444d-a89b-a8e9f0d6e929.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/bigPic4ed6edbf-fb3e-49a7-be5e-361b2ce02961.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/bigPic5ab54f67-a479-48fe-a41d-7d34b57036a3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/bigPica5720219-ba48-460a-a084-24d5b314bd03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/bigPica7e5d3dd-5984-4d0f-9851-35cc0987d9b9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/bigPicaa443d05-27b4-4964-958e-c81536f01d04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/bigPicc1e3a29e-17f5-4d9f-a186-b2c5a0b39b88.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/bigPicd0459632-fe4e-4a5d-8373-1a67c9f43ec2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/bigPice7c2e240-4147-4c11-b369-db3765ec3df9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/bigPicee0785e3-68e2-4e23-93ef-68904bc2a3c6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/blank.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/captcha (2).jhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/captcha.jhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/cart.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/cart.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/common.css.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/common.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/dadonggua.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/eifini.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/f37ba36a-181b-4161-a88f-f74c9adb485d-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/f5e39c37-94b2-462e-8e58-8bde3c5f1b8c-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/footer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/g.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/h.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/hengyuanxiang.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/i.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/index_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/index_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/index_right.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/index_top.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/j.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/jackjones.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/jsbn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/k.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/l.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/lining.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/login.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/logo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/m.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/maoren.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/nike.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/p.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/product.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/product.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/q.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/r___________renleipic_01/15.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/r___________renleipic_01/bigPic139f030b-d68b-41dd-be6d-b94cc568d3c5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/r___________renleipic_01/bigPic19533252-0faa-4e64-8077-6e1908f47739.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/r___________renleipic_01/bigPic1ea8f1c9-8b8e-4262-8ca9-690912434692.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/r___________renleipic_01/bigPic5f3622b8-028a-4e62-a77f-f41a16d715ed.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/r___________renleipic_01/footer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/r___________renleipic_01/header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/r___________renleipic_01/logo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/r___________renleipic_01/logo1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/r___________renleipic_01/product.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/registImg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/regist_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/register.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/semir.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/sentubila.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/septwolves.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/sundance.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/vimly.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/image/yishion.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/images/article.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/images/cart.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/images/cart1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/images/common.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/images/dialog_overlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/images/error.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/images/finalbutton.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/images/index.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/images/info.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/images/loading_bar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/images/loading_icon.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/images/login.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/images/loginbg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/images/member.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/images/message.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/images/order.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/images/password.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/images/product.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/images/register.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/images/review.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/images/title2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/img/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/img/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/img/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/img/bartlesvillecf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/img/emancipation.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/img/footer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/img/header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/img/header.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/img/logo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/img/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/img/okwu-athletics.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/img/okwu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/img/title2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/info.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/js/jquery-1.11.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/login.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/order_info.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/order_list.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/product_info.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/product_list.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs10001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs10002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs10003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs10004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs10005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs10006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs10007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs10008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs10009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs10010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs20001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs20002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs20003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs20004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs20005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs20006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs20007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs20008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs20009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs20010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs30001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs30002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs30003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs30004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs30005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs30006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs30007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs30008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs30009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs30010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs40001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs40002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs40003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs40004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs40005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs40006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs40007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs40008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs40009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs40010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs40011.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs50001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs50002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs50003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs50004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs50005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs50006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs50007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs50008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs50009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs50010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs60001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs60002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs60003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs60004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs60005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs60006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs60007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs60008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs60009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs60010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs70001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs70002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs70003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs70004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs70005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs70006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs70007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs70008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs70009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/cs70010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/duanxue1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/duanxue2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/duanxue3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/duanxue4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/1/nvxie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/155210007679548_y.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/562d008aN963ce5f2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/5632bdf8N789e6659.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/5632c2eeNbc918af0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/90560009093007_y.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/c_0001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/c_0002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/c_0003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/c_0004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/c_0005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/c_0006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/c_0007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/dn1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/dn2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/f001a62f-a49d-4a4d-b56f-2b6908a0002c_g.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/hao/ad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/hao/big01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/hao/middle01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/hao/small01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/hao/small02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/hao/small03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/hao/small04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/hao/small05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/hao/small06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/hao/small07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/hao/small08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/hao/small09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/news_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/products/news_right.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/全套前台页面/register.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/校验案例/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/校验案例/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/校验案例/img/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/校验案例/img/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/校验案例/img/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/校验案例/img/ad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/校验案例/img/ad_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/校验案例/img/big01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/校验案例/img/footer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/校验案例/img/header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/校验案例/img/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/校验案例/img/middle01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/校验案例/img/regist_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/校验案例/img/small08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/校验案例/img/title2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/校验案例/js/jquery-1.11.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/校验案例/js/jquery.validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/校验案例/js/messages_zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/校验案例/案例-用户注册校验/validate使用.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap2017resources/resource/校验案例/案例-用户注册校验/案例1-表单校验.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/3_删格系统/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/3_删格系统/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/3_删格系统/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/3_删格系统/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/3_删格系统/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/3_删格系统/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/3_删格系统/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/3_删格系统/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/3_删格系统/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/3_删格系统/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/3_删格系统/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/3_删格系统/img/pic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/3_删格系统/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/3_删格系统/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/3_删格系统/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/3_删格系统/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/3_删格系统/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/3_删格系统/下拉菜单.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/3_删格系统/导航2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/3_删格系统/导航条.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/3_删格系统/草鸡小的屏幕隐藏.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/3_删格系统/输入框.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/content.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/img/pic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/img/slide1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/img/slide2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/img/slide3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/img/small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/下拉菜单和滚动.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/列表组后面板嵌套.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/巨幕页头缩略图.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/弹出框和隐藏.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/按钮.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/按钮和折叠.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/按钮和路径分页.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/标签页面.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/模态框.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/警告框.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/轮播插件.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/进度条媒体对象.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/4路径分页/附加导航插件.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/form_picture/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/form_picture/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/form_picture/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/form_picture/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/form_picture/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/form_picture/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/form_picture/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/form_picture/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/form_picture/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/form_picture/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/form_picture/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/form_picture/img/pic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/form_picture/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/form_picture/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/form_picture/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/form_picture/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/form_picture/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/form_picture/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/table_button/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/table_button/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/table_button/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/table_button/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/table_button/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/table_button/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/table_button/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/table_button/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/table_button/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/table_button/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/table_button/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/table_button/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/table_button/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/table_button/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/table_button/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bootstrap讲义笔记/table_button/js/npm.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +430,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\ITsoftware\repository" />
-        <option name="mavenHome" value="D:/ITsoftware/maven/apache-maven-3.6.1" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../ITsoftware/maven/apache-maven-3.6.1" />
         <option name="userSettingsFile" value="D:\ITsoftware\maven\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -49,38 +441,56 @@
     <option name="width" value="1751" />
     <option name="height" value="996" />
   </component>
+  <component name="ProjectId" id="1lyGranVKSiSC4QwC91XjDNCAu1" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fd148c3b-d8c3-4f6b-ab66-83ee2a2953a6" name="Default Changelist" comment="" />
+      <changelist id="b7ad0e42-63ff-4357-91df-ab434703b7e2" name="Default Changelist" comment="" />
       <created>1592010956516</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592010956516</updated>
       <workItem from="1592010959656" duration="863000" />
+      <workItem from="1608562119607" duration="17000" />
+      <workItem from="1608562325050" duration="375000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="masterDetails">
     <states>
